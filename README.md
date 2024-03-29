@@ -9,7 +9,7 @@
 
 ## About App
 
-This basic Laravel app allows user to book appointments through a user-friendly UI. Appoitments will redirected to admin for approval or rejection. An email will be triggered to notify the user.
+This basic Laravel app allows user to book appointments through a user-friendly UI. Appoitments will be redirected to admin for approval or rejection. An email will be triggered to notify the user.
 This app is connected to my db in phpmyadmin. You may need to change the configurations.
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
