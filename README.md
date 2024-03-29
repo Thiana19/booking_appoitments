@@ -17,7 +17,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 <div style="display: flex; justify-content: space-between;">
     <img src="screenshots/user-page.png" alt="Login" style="width: 100%;">
-    <img src="screenshots/admin-login-page" alt="Chats" style="width: 100%;">
+    <img src="screenshots/admin-login-page.png" alt="Chats" style="width: 100%;">
     <img src="screenshots/admin-panel.png" alt="Contacts" style="width: 100%;">
 </div>
 
