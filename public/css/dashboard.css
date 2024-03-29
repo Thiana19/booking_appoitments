@@ -1,0 +1,109 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center; 
+    border-bottom: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.tab {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    background-color: inherit;
+    font-size: 17px;
+}
+
+.tab:hover {
+    background-color: #ddd;
+}
+
+.tab.active {
+    background-color: #3D4461; 
+    color: white;
+}
+
+/* .tab:nth-child(1) {
+    background-color: orange;
+}
+
+.tab:nth-child(2) {
+    background-color: green;
+}
+
+.tab:nth-child(3) {
+    background-color: red;
+} */
+
+#approved, #rejected {
+    display: none;
+}
+
+h2 {
+    color: #003367;
+}
+
+.appointment-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: #f0f0f0; 
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.appointment-details {
+    flex: 1; 
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+}
+
+.actions button {
+    margin-left: 10px; 
+}
+
+.approve-btn {
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 10px; 
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.reject-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.approve-btn:hover, .reject-btn:hover {
+    opacity: 0.8;
+}
+
+.logout-btn {
+    display: flex;
+    justify-content: end; 
+    margin-bottom: 10px;
+}
